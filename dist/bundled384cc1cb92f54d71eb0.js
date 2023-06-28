@@ -33,7 +33,7 @@ body {
   background-color: #f5f5f5;
   width: 420px;
   margin: 0 auto;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yBAAA;EACA,YAAA;EACA,cAAA;AAAF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nbody {\n  background-color: #f5f5f5;\n  width: 420px;\n  margin: 0 auto;\n}\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yBAAA;EACA,YAAA;EACA,cAAA;AAAF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nbody {\n  background-color: #f5f5f5;\n  width: 420px;\n  margin: 0 auto;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -566,4 +566,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle9bdf26a006c1ea8669a5.js.map
+//# sourceMappingURL=bundled384cc1cb92f54d71eb0.js.map
