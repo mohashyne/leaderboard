@@ -81,7 +81,47 @@ body {
 
 .grid > div {
   padding: 10px;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yBAAA;EACA,YAAA;EACA,cAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,WAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AACC;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAEH;;AACA;EACE,WAAA;EACA,yBAAA;AAEF;;AACA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAEF;;AACA;EACE,aAAA;AAEF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nbody {\n  background-color: #f5f5f5;\n  width: 420px;\n  margin: 0 auto;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 20px;\n  border: 1px solid #ccc;\n}\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}.container {\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   margin-top: 20px;\n   border: 1px solid #ccc;\n }\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}"],"sourceRoot":""}]);
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 1.7rem;
+  margin-right: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.list-score:nth-child(even) {
+  background-color: lightgray;
+}
+
+input[type=text] {
+  margin-bottom: 1.7rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+#submit-btn {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  margin-right: -6rem;
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yBAAA;EACA,YAAA;EACA,cAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,WAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AACC;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAEH;;AACA;EACE,WAAA;EACA,yBAAA;AAEF;;AACA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAEF;;AACA;EACE,aAAA;AAEF;;AACA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,mBAAA;AAEF;;AACA;EACE,qBAAA;EACA,qBAAA;EACA,kBAAA;AAEF;;AACA;EACE,gBAAA;EACA,oBAAA;EACA,aAAA;EACA,sBAAA;EACA,WAAA;EACA,sBAAA;AAEF;;AACA;EACE,2BAAA;AAEF;;AACA;EACE,qBAAA;EACA,eAAA;EACA,sBAAA;AAEF;;AACA;EACE,YAAA;EACA,sBAAA;EACA,sBAAA;EACA,eAAA;EACA,mBAAA;AAEF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nbody {\n  background-color: #f5f5f5;\n  width: 420px;\n  margin: 0 auto;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 20px;\n  border: 1px solid #ccc;\n}\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}.container {\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   margin-top: 20px;\n   border: 1px solid #ccc;\n }\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-bottom: 2rem;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 1.7rem;\n  margin-right: 1rem;\n}\n\nul {\n  list-style: none;\n  padding-left: 0.1rem;\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n  border: 1px solid #ccc;\n}\n\n.list-score:nth-child(even) {\n  background-color: lightgray;\n}\n\ninput[type=\"text\"] {\n  margin-bottom: 1.7rem;\n  padding: 0.5rem;\n  border: 1px solid #ccc;\n}\n\n#submit-btn  {\n  padding: 5px;\n  border: 1px solid #ccc;\n  background-color: #fff;\n  cursor: pointer;\n  margin-right: -6rem;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -614,4 +654,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle3a47c4e315564f1b3c53.js.map
+//# sourceMappingURL=bundle59f368bed7d51dde5215.js.map
