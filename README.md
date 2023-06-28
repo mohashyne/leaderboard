@@ -16,8 +16,6 @@
     - [Usage](#usage)
     - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🚀 Live Demo](#live-demo)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -63,12 +61,6 @@ showcase rankings in real-time, enhancing the overall experience for administrat
 - **Semantic HTML Tags with content for each corresponding Section**
 - **Bundler/webpack**
 - **CSS Styling, UI improvements**
-
- ## 🚀 Live Demo <a name="live-demo"></a>
-
- <p>For Live demo click
-<a href="#"> Comming soon </a></p>
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
