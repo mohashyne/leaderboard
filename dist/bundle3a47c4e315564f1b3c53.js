@@ -33,7 +33,55 @@ body {
   background-color: #f5f5f5;
   width: 420px;
   margin: 0 auto;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yBAAA;EACA,YAAA;EACA,cAAA;AAAF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nbody {\n  background-color: #f5f5f5;\n  width: 420px;\n  margin: 0 auto;\n}"],"sourceRoot":""}]);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 10px;
+}
+
+.grid > div {
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 10px;
+}
+
+.grid > div {
+  padding: 10px;
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yBAAA;EACA,YAAA;EACA,cAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,WAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AACC;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAEH;;AACA;EACE,WAAA;EACA,yBAAA;AAEF;;AACA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAEF;;AACA;EACE,aAAA;AAEF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nbody {\n  background-color: #f5f5f5;\n  width: 420px;\n  margin: 0 auto;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 20px;\n  border: 1px solid #ccc;\n}\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}.container {\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   margin-top: 20px;\n   border: 1px solid #ccc;\n }\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -566,4 +614,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundled384cc1cb92f54d71eb0.js.map
+//# sourceMappingURL=bundle3a47c4e315564f1b3c53.js.map
