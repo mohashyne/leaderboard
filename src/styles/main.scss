@@ -35,28 +35,6 @@ body {
 
 .grid > div {
   padding: 10px;
-}.container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-top: 20px;
-   border: 1px solid #ccc;
- }
-
-.leaderboard {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  margin: 10px;
-}
-
-.grid > div {
-  padding: 10px;
 }
 
 .add-score {
@@ -91,7 +69,7 @@ input[type="text"] {
   border: 1px solid #ccc;
 }
 
-#submit-btn  {
+#submit-btn {
   padding: 5px;
   border: 1px solid #ccc;
   background-color: #fff;
