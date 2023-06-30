@@ -1,52 +1,37 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-  <div class="container">
+<div class="container">
     <header>
-      <h1>Leaderboard</h1>
+        <h1>Leaderboard</h1>
     </header>
-   <main>
-     <div class="leaderboard grid">
-       <div class="recent-score">
-         <label for="refresh-btn">Recent Score</label>
-         <input type="button" name="refresh" id="refresh-btn" value="Refresh">
-         <div  class="all-score">
-           <ul >
-             <li class="list-score">Name: 100</li>
-             <li  class="list-score">Name: 70</li>
-             <li class="list-score">Name: 10</li>
-             <li class="list-score">Name: 40</li>
-             <li class="list-score">Name: 175</li>
-             <li class="list-score">Name: 42</li>
-             <li class="list-score">Name: 55</li>
-           </ul>
-
-         </div>
-
-       </div>
-
-
-       <div class="add-score" >
-         <label for="">Add Score</label>
-         <input type="text" name="score-value" id="name" placeholder="Name">
-         <input type="text" name="score-value" id="score" placeholder="Score">
-         <input type="button" name="score-value" id="submit-btn" value="submit">
-
-       </div>
-
-     </div>
-
-   </main>
-
-
-  </div>
+    <main>
+        <div class="leaderboard grid">
+            <div>
+                <label class="recent-score">Recent Score</label>
+                <input type="button" name="refresh" id="refresh-btn" value="Refresh">
+                <div class="all-score">
+                    <ul class="score-container"></ul>
+                </div>
+            </div>
+            <div class="add-score">
+                <label>Add Score</label>
+                <form id="inputsScore" method="post" action="/">
+                    <input type="text" class="inputName" name="score-value" id="name" placeholder="Name">
+                    <input type="text" class="inputScore" name="score-value" id="score" placeholder="Score">
+                    <input type="button" name="score-value" id="submit-btn" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+</div>
 
 </body>
 </html>
