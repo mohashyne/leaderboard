@@ -164,6 +164,11 @@ h1 {
   margin-left: -17rem;
 }
 
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .leaderboard {
   width: 100%;
   border-collapse: collapse;
@@ -185,6 +190,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+  gap: 2rem;
 }
 
 #refresh-btn {
@@ -194,6 +200,11 @@ h1 {
   cursor: pointer;
   border-radius: 3px;
   box-shadow: 0 0 5px #ccc;
+  float: right;
+}
+
+.add {
+  margin-right: 5rem;
 }
 
 label {
@@ -226,6 +237,7 @@ input[type=text] {
   margin-bottom: 1.7rem;
   padding: 0.5rem;
   border: 1px solid #ccc;
+  width: 15rem;
 }
 
 #submit-btn {
@@ -236,7 +248,8 @@ input[type=text] {
   cursor: pointer;
   border-radius: 3px;
   box-shadow: 0 0 5px #ccc;
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yDAAA;EACA,4BAAA;EACA,sBAAA;AAAF;;AAGA;EACE,wCAAA;EACA,YAAA;EACA,cAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,gBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,WAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,YAAA;EACA,sBAAA;EACA,2BAAA;EACA,eAAA;EACA,kBAAA;EACA,wBAAA;AAAF;;AAGA;EACE,qBAAA;EACA,qBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,aAAA;EACA,sBAAA;EACA,WAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;EACA,kBAAA;AAAF;;AAGA;EACE,2BAAA;AAAF;;AAGA;EACE,qBAAA;EACA,eAAA;EACA,sBAAA;AAAF;;AAGA;EACE,YAAA;EACA,YAAA;EACA,sBAAA;EACA,sBAAA;EACA,eAAA;EACA,kBAAA;EACA,wBAAA;AAAF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nhtml {\n  background-image: url(\"../assets/giphy.gif\");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\nbody {\n  background-color: blend(#000, #fff, 50%);\n  width: 37rem;\n  margin: 0 auto;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 20px;\n  border: 1px solid #ccc;\n}\n\nh1 {\n  margin-top: 1rem;\n  font-size: 2rem;\n  text-align: left;\n  margin-left: -17rem;\n}\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-bottom: 2rem;\n}\n\n#refresh-btn {\n  padding: 5px;\n  border: 1px solid #ccc;\n  background-color: lightgray;\n  cursor: pointer;\n  border-radius: 3px;\n  box-shadow: 0 0 5px #ccc;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 1.7rem;\n  margin-right: 1rem;\n}\n\nul {\n  list-style: none;\n  padding: 1.5rem;\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n  border: 1px solid #ccc;\n}\n\nli {\n  display: flex;\n  justify-content: space-between;\n  padding: 0.5rem;\n  border-radius: 5px;\n}\n\nul li:nth-child(even) {\n  background-color: lightgray;\n}\n\ninput[type=\"text\"] {\n  margin-bottom: 1.7rem;\n  padding: 0.5rem;\n  border: 1px solid #ccc;\n}\n\n#submit-btn {\n  width: 100px;\n  padding: 5px;\n  border: 1px solid #ccc;\n  background-color: #fff;\n  cursor: pointer;\n  border-radius: 3px;\n  box-shadow: 0 0 5px #ccc;\n}\n"],"sourceRoot":""}]);
+  margin-left: 8rem;
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AACA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;EACA,2DAAA;EACA,eAAA;AAAF;;AAGA;EACE,yDAAA;EACA,4BAAA;EACA,sBAAA;AAAF;;AAGA;EACE,wCAAA;EACA,YAAA;EACA,cAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,gBAAA;EACA,sBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,gBAAA;EACA,mBAAA;AAAF;;AAGA;EACE,iBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,WAAA;EACA,yBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,mBAAA;EACA,SAAA;AAAF;;AAGA;EACE,YAAA;EACA,sBAAA;EACA,2BAAA;EACA,eAAA;EACA,kBAAA;EACA,wBAAA;EACA,YAAA;AAAF;;AAGA;EACE,kBAAA;AAAF;;AAGA;EACE,qBAAA;EACA,qBAAA;EACA,kBAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,aAAA;EACA,sBAAA;EACA,WAAA;EACA,sBAAA;AAAF;;AAGA;EACE,aAAA;EACA,8BAAA;EACA,eAAA;EACA,kBAAA;AAAF;;AAGA;EACE,2BAAA;AAAF;;AAGA;EACE,qBAAA;EACA,eAAA;EACA,sBAAA;EACA,YAAA;AAAF;;AAGA;EACE,YAAA;EACA,YAAA;EACA,sBAAA;EACA,sBAAA;EACA,eAAA;EACA,kBAAA;EACA,wBAAA;EACA,iBAAA;AAAF","sourcesContent":["\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\n  font-size: 14px;\n}\n\nhtml {\n  background-image: url(\"../assets/giphy.gif\");\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\nbody {\n  background-color: blend(#000, #fff, 50%);\n  width: 37rem;\n  margin: 0 auto;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 20px;\n  border: 1px solid #ccc;\n}\n\nh1 {\n  margin-top: 1rem;\n  font-size: 2rem;\n  text-align: left;\n  margin-left: -17rem;\n}\n\nh2 {\n  font-size: 1.2rem;\n  text-align: center;\n}\n\n.leaderboard {\n  width: 100%;\n  border-collapse: collapse;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n  margin: 10px;\n}\n\n.grid > div {\n  padding: 10px;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-bottom: 2rem;\n  gap: 2rem;\n}\n\n#refresh-btn {\n  padding: 5px;\n  border: 1px solid #ccc;\n  background-color: lightgray;\n  cursor: pointer;\n  border-radius: 3px;\n  box-shadow: 0 0 5px #ccc;\n  float: right;\n}\n\n.add {\n  margin-right: 5rem;\n}\n\nlabel {\n  display: inline-block;\n  margin-bottom: 1.7rem;\n  margin-right: 1rem;\n}\n\nul {\n  list-style: none;\n  padding: 1.5rem;\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n  border: 1px solid #ccc;\n}\n\nli {\n  display: flex;\n  justify-content: space-between;\n  padding: 0.5rem;\n  border-radius: 5px;\n}\n\nul li:nth-child(even) {\n  background-color: lightgray;\n}\n\ninput[type=\"text\"] {\n  margin-bottom: 1.7rem;\n  padding: 0.5rem;\n  border: 1px solid #ccc;\n  width: 15rem;\n}\n\n#submit-btn {\n  width: 100px;\n  padding: 5px;\n  border: 1px solid #ccc;\n  background-color: #fff;\n  cursor: pointer;\n  border-radius: 3px;\n  box-shadow: 0 0 5px #ccc;\n  margin-left: 8rem;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -958,4 +971,4 @@ main();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleabc16c5891ecd2ed5330.js.map
+//# sourceMappingURL=bundle07220650f08440a639ac.js.map
